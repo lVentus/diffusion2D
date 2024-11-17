@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools", "wheel", "versioneer"]
+requires = ["setuptools", "wheel", "versioneer[toml]"]
 build-backend = "setuptools.build_meta"
 
 [tool.versioneer]
@@ -7,12 +7,12 @@ VCS = "git"
 style = "pep440"
 versionfile_source = "guanpu_diffusion2d/_version.py"
 versionfile_build = "guanpu_diffusion2d/_version.py"
-tag_prefix = ""
+tag_prefix = "v"
 parentdir_prefix = "guanpu_diffusion2d-"
 
 [project]
 name = "guanpu_diffusion2d"
-version = "0.0.0+versioneer"
+#version = "0.0.0+versioneer"
 description = "A Python package for simulating 2D heat diffusion"
 readme = "README.md" 
 license = { file = "LICENSE" }
