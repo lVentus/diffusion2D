@@ -55,12 +55,3 @@ diffusion2d.solve(dx=0.05, dy=0.05, D=2.0)
 ---
 
 ## Citing
-
-If you use this code in your project or research, please cite it as follows:
-
-- **Learning Scientific Programming with Python**  
-  Original algorithm reference:  
-  [https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/)
-
-- **`diffusion2D` package**  
-  [Your PyPI package link or GitHub repository link](https://github.com/lVentus/diffusion2D)
