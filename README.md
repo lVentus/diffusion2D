@@ -55,3 +55,4 @@ diffusion2d.solve(dx=0.05, dy=0.05, D=2.0)
 ---
 
 ## Citing
+just cite plz
