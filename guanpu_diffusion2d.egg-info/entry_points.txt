@@ -1,0 +1,2 @@
+[console_scripts]
+solver = guanpu_diffusion2d:solve

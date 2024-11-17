@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools", "wheel", "versioneer[toml]"]
+requires = ["setuptools", "wheel", "versioneer[toml]==0.29"]
 build-backend = "setuptools.build_meta"
 
 [tool.versioneer]
@@ -12,7 +12,6 @@ parentdir_prefix = "guanpu_diffusion2d-"
 
 [project]
 name = "guanpu_diffusion2d"
-#version = "0.0.0+versioneer"
 description = "A Python package for simulating 2D heat diffusion"
 readme = "README.md" 
 license = { file = "LICENSE" }
@@ -21,8 +20,10 @@ authors = [
 ]
 dependencies = [
     "numpy",
-    "matplotlib"
+    "matplotlib",
+    'tomli; python_version < "3.11"'
 ]
+dynamic = ["version"]
 requires-python = ">=3.6"
 
 [project.urls]
