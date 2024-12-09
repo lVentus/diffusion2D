@@ -23,7 +23,7 @@ The project is modular, with clear separation of the solver and plotting functio
 Once the package is published to PyPI, you can install it with:
 
 ```bash
-pip install guanpu_diffusion2d
+pip install -i https://test.pypi.org/simple/ guanpu-diffusion2d
 ```
 
 ### Required Dependencies
